@@ -1,0 +1,293 @@
+@media screen and (max-width: 1920px){
+    .custom_container {max-width: 65%;}
+}
+
+@media screen and (max-width: 1600px){
+    .custom_container {max-width: 75%;}
+}
+
+@media screen and (max-width: 1440px){
+    .custom_container {max-width: 80%;}
+    .our_mission .inner_section_our_mission .main_heading{max-width: 53%;}
+}
+
+@media screen and (max-width: 1366px){
+    .custom_container {max-width: 85%;}
+}
+
+@media screen and (max-width: 1280px){
+    .custom_container {max-width: 90%;}
+}
+
+@media screen and (max-width: 1200px){
+    .our_mission .inner_section_our_mission .main_heading{max-width: 55%;}
+}
+
+@media screen and (max-width: 1024px){
+
+    h1{
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .accross_the_usa .main_heading h2{font-size: 35px; line-height: 45px;}
+    .rates_terms_condition .main_heading h2{font-size: 35px;}
+
+    h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    h4{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .p_14{
+        font-size: 12px;
+    }
+
+    .p_16{
+        font-size: 14px;
+    }
+
+    .p_18{
+        font-size: 16px;
+    }
+
+    .p_24{
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 16px;
+    }
+
+    .our_large_fleet_sec .inner_section_filter_card .card_buttons a{font-size: 16px;}
+
+    .bottom_floating_menu{display: block;}
+
+    header .bottom_section {display: none;}
+    header .top_section .inner_section_top_sec .top_col:first-child, header .top_section .inner_section_top_sec .top_col:last-child{display: none;}
+    header .top_section .inner_section_top_sec{justify-content: center;}
+    header .inner_section_top_sec .top_col_middle .main_logo{padding-top: 0;}
+
+    .section_float_heading h1 {font-size: 100px !important;}
+
+    .fixed_but {display: none;}
+
+    .areas_swiper .swiper-button-prev { width: 60px; height: auto; left: 0; right: 30px; margin: 0 auto; }
+
+    .mx_width_80 {max-width: 90%;}
+
+    .pickup_instruction_sec .map_col {max-width: 100%; flex: 0 0 100%;}
+    .pickup_instruction_sec .map_col #map-region{margin: 0 auto;}
+
+    .filter_btn_20 {width: 24%;}
+
+    .available_vehicles .vehicle_list ul{height: unset;}
+
+    .our_large_fleet_sec.iframe_sec iframe {width: 95% !important; margin: 0 auto; border: 0;}
+
+}
+
+@media screen and (max-width: 991px){
+    .our_mission .inner_section_our_mission .main_heading {max-width: 80%;}
+    .our_mission .inner_section_our_mission .main_content{max-width: 80%;}
+}
+
+@media screen and (max-width: 800px){
+    .services {background-image: linear-gradient(180deg, white 8%, #F5F5F5 0%);}
+    .large_fleet .inner_section_large_fleet .row .col-md-6 {max-width: 100%; flex: 0 0 100%;}
+    .large_fleet .inner_section_large_fleet .content_col:before{top: 0; font-size: 12px;}
+
+    .areas_swiper .swiper-slide .inner_section_slide > .row .col_left, .areas_swiper .swiper-slide .inner_section_slide > .row .col_right {max-width: 100%; flex: 0 0 100%;}
+    .areas .areas_swiper .inner_section_slide .inner_section_content:before{font-size: 12px; top: 0;}
+    .areas_swiper .swiper-slide .inner_section_slide > .row .col_left{padding-bottom: 10px;}
+
+    .areas_swiper .swiper-pagination {display: block;}
+    .areas_swiper .swiper-pagination .swiper-pagination-bullet{width: 30px; border-radius: 0; height: 4px;}
+    .areas_swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color: #897354;}
+    .areas_swiper .swiper-button-prev{display: none;}
+
+    .alwaysThereForYou .inner_section_main .col_left {flex: 0 0 60%; max-width: 60%;}
+    .alwaysThereForYou .inner_section_col_left:before{font-size: 12px; top: 0;}
+
+
+    /* footer .inner_section_links ul {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;} */
+
+    footer .col {flex: 0 0 100%; max-width: 100%; text-align: center;}
+    footer .row .col:nth-child(2) {order: 1;}
+    footer .col_three{padding-left: 0; padding-top: 50px;}
+    footer .col_one{padding-right: 0; padding-top: 40px;}
+    footer .links_col {display: none;}
+
+    .testimonial_swiper .swiper-pagination .swiper-pagination-bullet{width: 30px; border-radius: 0; height: 4px;}
+    .testimonial_swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color: #897354;}
+
+    .newsletter_images img {width: 90px; height: 90px;}
+
+    .large_fleet .img_col{padding-right: 0;}
+
+    body .our_services_night .inner_section_large_fleet .content_col {padding-left: 0;}
+    .our_services_night .inner_section_large_fleet .content_col .main_heading{max-width: 100%;}
+
+    .available_vehicles .col_left, .available_vehicles .col_right {max-width: 100%; flex: 0 0 100%; margin-bottom: 35px;}
+    .available_vehicles.corporate_transportation.bg_dark .row {flex-direction: column-reverse;}
+
+    .download_the_android_app .inner_section_large_fleet .img_col {margin: 30px 0;}
+
+}
+
+@media screen and (max-width: 768px){
+
+    h1{
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .accross_the_usa .main_heading h2{font-size: 28px; line-height: 45px;}
+
+    h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h4{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .p_14{
+        font-size: 12px;
+    }
+
+    .p_16{
+        font-size: 14px;
+    }
+
+    .p_18{
+        font-size: 16px;
+    }
+
+    .p_24{
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    .newsletter_images img {width: 90px; height: 90px;}
+
+    .about_us_large_fleet .inner_section_large_fleet .card_buttons .bottom_btn a{font-size: 14px;}
+    .our_large_fleet_sec .inner_section_filter_card .card_buttons a{font-size: 14px;}
+    .filter_btn_20 {width: 32.2%;}
+    .rates_terms_condition .main_heading h2{font-size: 30px;}
+}
+
+@media screen and (max-width: 767px){
+    .section_float_heading h1 {font-size: 80px !important;}
+    .newsletter_sec .inner_section_newsletter .inner_section_form .inner_col_btn {margin-top: 20px;}
+    .beyond_rational .inner_section_large_fleet .content_col{padding-top: 0;}
+
+    .bottom_floating_menu .icon i {font-size: 20px;}
+    .bottom_floating_menu .reserve_btn a{font-size: 20px;}
+
+    .contact_page .details_col {margin-bottom: 30px;}
+    .contact_page .inner_section_col_right .content p{max-width: 100%;}
+    .contact_page .inner_section_col_right{padding: 35px 30px;}
+
+    .filter_btn_20 {width: 49%;}
+
+    .download_the_ios_app .inner_section_large_fleet .main_heading{max-width: 100%;}
+
+}
+
+@media screen and (max-width: 600px) {
+    .custom_container {max-width: 100%;}
+    .testimonial_sec .testimonial h3 {font-size: 16px;}
+    .testimonial_swiper .swiper-button-prev:after, .testimonial_swiper .swiper-button-next:after{height: 45px;}
+    .testimonial_swiper .swiper-button-next, .testimonial_swiper .swiper-button-prev{width: 60px;}
+    .large_fleet .img_col {height: 350px;}
+    .areas_swiper .col_right .inner_section_image{height: 400px;}
+    .newsletter_images img {width: 55px; height: 55px;}
+
+    .check_field input[type="checkbox"]:checked + label:after{top: 12px;}
+
+    .download_the_ios_app .inner_section_large_fleet .content_col:before{left: 10px;}
+
+    .download_the_android_app .app_features ul{height: unset;}
+
+    .topalert {padding-right: 50px; padding-left: 10px; text-align: left; justify-content: start;}
+
+    .our_large_fleet_sec.iframe_sec iframe{width: 90% !important;}
+
+}
+
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .rates_terms_condition .main_heading h2{font-size: 22px;}
+
+    h3{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    h4{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .section_float_heading h1 {font-size: 60px !important;}
+    .alwaysThereForYou .inner_section_main .col_left {flex: 0 0 90%; max-width: 90%;}
+    .hero_banner .inner_section_banner .banner_heading h1 {font-size: 30px;}
+    .our_mission .inner_section_our_mission .main_heading {max-width: 100%;}
+    .our_mission .inner_section_our_mission .main_content{max-width: 100%;}
+    .newsletter_sec .main_heading h2 {font-size: 25px;}
+
+    .pickup_instruction_sec .pickup_types {flex-direction: column; gap: 10px;}
+
+    .accross_the_usa .inner_section_main{margin-top: -20px;}
+}
+
+@media screen and (max-width: 425px){
+    .testimonial_swiper{max-width: 100%;}
+    .filter_btn_20 {width: 100%;}
+}
+
+@media screen and (max-width: 375px){
+    .section_float_heading h1 {font-size: 40px !important;}
+    .large_fleet .inner_section_large_fleet .content_col {padding-left: 15px;}
+    .pad_left {padding-left: 40px;}
+    .testimonial_swiper .swiper-button-next, .testimonial_swiper .swiper-button-prev {width: 45px;}
+
+    .about_us_large_fleet .inner_section_large_fleet .content_col .card_buttons {flex-direction: column;}
+
+    .download_the_ios_app .inner_section_large_fleet .content_col:before{display: none;}
+    .large_fleet .inner_section_large_fleet .content_col{padding-left: 0;}
+}
+
+/* @media screen and (min-width: 1200px){
+    .custom_container {max-width: 90%;}
+} */
